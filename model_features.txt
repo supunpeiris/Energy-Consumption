@@ -1,0 +1,10 @@
+total_floor_area
+number_of_floors
+occupant_count
+building_age
+hvac_efficiency
+lighting_power_density
+equipment_power_density
+outdoor_temperature
+humidity
+occupancy_hours

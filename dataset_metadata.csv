@@ -1,0 +1,36 @@
+feature,description,unit
+total_floor_area,Total floor area in square meters,m²
+number_of_floors,Number of floors in the building,count
+occupant_count,Number of regular occupants,count
+building_age,Age of building in years,years
+floor_area_per_floor,Average area per floor (m²/floor),m²/floor
+occupant_density,Occupants per square meter,person/m²
+hvac_efficiency,"HVAC system efficiency ratio (0-1, higher is better)",ratio
+lighting_power_density,Lighting power density in W/m²,W/m²
+equipment_power_density,Equipment power density in W/m²,W/m²
+outdoor_temperature,Average outdoor temperature in °C,°C
+humidity,Average relative humidity in %,%
+occupancy_hours,Average daily occupancy hours,hours
+weekday_numeric,"Weekday numeric (0=Monday, 6=Sunday)",0-6
+has_elevator_numeric,Binary indicator for elevator presence,0/1
+floor_height,Average floor height in meters,m
+building_type_numeric,Building type encoded as integer,0-4
+climate_zone_numeric,Climate zone code (1-7),1-7
+is_single_story,Binary: 1 if single story building,0/1
+is_low_rise,Binary: 1 if low-rise (2-4 floors),0/1
+is_mid_rise,Binary: 1 if mid-rise (5-9 floors),0/1
+is_high_rise,Binary: 1 if high-rise (10+ floors),0/1
+hvac_floor_factor,HVAC efficiency scaled by floor count,dimensionless
+vertical_lighting_factor,Lighting impact considering vertical distribution,dimensionless
+vertical_occupancy_impact,Occupancy impact considering vertical distribution,dimensionless
+elevator_energy_estimate,Estimated elevator energy consumption,kWh
+stack_effect_intensity,Stack effect intensity from temperature difference,dimensionless
+envelope_efficiency_score,Building envelope thermal performance score,0-1
+floor_compactness,Floor plan compactness metric,ratio
+thermal_mass_effect,Thermal mass effect on energy performance,dimensionless
+comprehensive_efficiency_score,Weighted comprehensive efficiency score,0-1
+cooling_degree_hours,Cooling degree hours based on temperature,°C-hours
+heating_degree_hours,Heating degree hours based on temperature,°C-hours
+humidity_comfort_penalty,Penalty for humidity deviation from comfort zone,ratio
+usage_intensity,Intensity of building usage,dimensionless
+energy_consumption_kwh,Annual energy consumption (target variable),kWh
